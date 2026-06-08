@@ -1,0 +1,32 @@
+[
+  {
+    "question": "公司的年假政策是什么？",
+    "answer": "员工每年享有5天带薪年假，工作满1年后可申请。年假按自然年计算，当年未使用完可结转最多3天至下一年度。",
+    "relevant_docs": ["employee_handbook.md"],
+    "keywords": ["年假", "5天", "带薪"]
+  },
+  {
+    "question": "如何申请实验室设备？",
+    "answer": "申请实验室设备需填写《设备使用申请表》，经导师签字后提交至实验室管理员。审批通过后，管理员将安排设备使用时间。",
+    "relevant_docs": ["lab_equipment_policy.md"],
+    "keywords": ["申请表", "导师", "实验室管理员"]
+  },
+  {
+    "question": "数据安全培训多久进行一次？",
+    "answer": "数据安全培训每季度进行一次，所有实验室成员必须参加。新成员入职后一个月内需完成首次培训。",
+    "relevant_docs": ["security_training.md"],
+    "keywords": ["每季度", "培训", "数据安全"]
+  },
+  {
+    "question": "员工病假每年可以请多少天？",
+    "answer": "员工凭医院证明申请病假，每年不超过30天带薪病假。",
+    "relevant_docs": ["employee_handbook.md"],
+    "keywords": ["病假", "30天"]
+  },
+  {
+    "question": "实验室设备外借需要什么条件？",
+    "answer": "设备外借需满足：借用期限不超过7天，填写《设备外借申请表》并注明用途，经实验室负责人审批，缴纳相应押金。",
+    "relevant_docs": ["lab_equipment_policy.md"],
+    "keywords": ["外借", "申请表", "押金"]
+  }
+]

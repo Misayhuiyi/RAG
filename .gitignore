@@ -1,0 +1,36 @@
+# ── Python ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+*.so
+
+# ── Environment ────────────────────────────────────────────────────────
+.env
+.env.local
+venv/
+.venv/
+
+# ── IDE / Editor ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Claude Code ────────────────────────────────────────────────────────
+.claude/
+
+# ── Testing ────────────────────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+
+# ── Runtime Data (auto-generated at startup) ──────────────────────────
+data/vector_store/
+data/badcases/
+
+# ── OS ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

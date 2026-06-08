@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+.github/
+.vscode/
+.idea/
+.claude/
+data/vector_store/
+data/badcases/
+.pytest_cache/
+htmlcov/
+.coverage

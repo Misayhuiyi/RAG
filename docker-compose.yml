@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  rag-app:
+    build: .
+    container_name: rag-qa-system
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist vector data and bad cases
+      - ./data:/app/data
+      # Mount documents for hot-reload
+      - ./data/documents:/app/data/documents
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+    command: ["python", "run.py"]
+
+  # Optional: Ollama for local LLM inference
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    profiles:
+      - ollama  # Start with: docker compose --profile ollama up
+
+volumes:
+  ollama_data:
